@@ -5,7 +5,7 @@ set -euo pipefail
 export GIT_AUTHOR_NAME="Automation"
 export GIT_COMMITTER_NAME=$GIT_AUTHOR_NAME
 export GIT_AUTHOR_EMAIL="automation@backtick.net"
-export GUT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
+export GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL
 URL=https://api.github.com/repos/dolthub/dolt/releases/latest
 
 header=
